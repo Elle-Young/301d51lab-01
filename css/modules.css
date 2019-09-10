@@ -1,0 +1,112 @@
+/* Desktop version */
+#a{
+    background-color: red;
+}
+#b{
+    background-color: blue;
+}
+#c{
+    background-color: green;
+}
+#d{
+    background-color: yellow;
+}
+#e{
+    background-color: grey;
+}
+#f{
+    background-color: purple;
+}
+#g{
+    background-color: orange;
+}
+#h{
+    background-color: pink;
+}
+#i{
+    background-color: cyan;
+}
+
+div{
+    width: 100%;
+    height: 200px;
+}
+
+#e{
+    width: 25%;
+    float: left;
+    height: 250px;
+}
+#f{
+    float: left;
+    width: 25%;
+    height: 250px;
+}
+#g{
+    float: right;
+    width: 25%;
+    height: 250px;
+    
+}
+#h{
+    float: right;
+    width: 25%;
+    height: 250px;
+}
+
+
+
+@media(max-width: 480px){
+
+    /* body {
+        width: 480px;
+        margin: auto;
+    } */
+    #a{
+        background-color: red;
+    }
+    #b{
+        background-color: rgb(100, 22, 52);
+    }
+    #c{
+        background-color: rgb(197, 101, 176);
+    }
+    #d{
+        background-color: rgb(228, 88, 95);
+    }
+    #e{
+        background-color: rgb(211, 195, 195);
+    }
+    #f{
+        background-color: rgb(197, 54, 61);
+    }
+    #g{
+        background-color: orange;
+    }
+    #h{
+        background-color: pink;
+    }
+    #i{
+        background-color: rgb(255, 0, 149);
+    }
+
+    div{
+        width: 100%;
+        height: 150px;
+        border: 1px solid black;
+    }
+
+    .left{
+        float: left;
+        width: 50%; 
+    }
+    .right{
+        float: right;
+        width: 50%;
+    }
+    .footer{
+        clear: both;
+        
+    }
+    
+}
