@@ -7,14 +7,11 @@ div{
     border: 1px solid black;
 }
 
-.left{
+.left, .right{
     float: left;
     width: 50%; 
 }
-.right{
-    float: right;
-    width: 50%;
-}
+
 .footer{
     clear: both;
     
@@ -39,31 +36,14 @@ div{
 
 }
 
-#e{
+#e, #f, #g, #h{
     display: inline-block;
     width: 190px;
     height: 200px;
 }
-#f{
-    display: inline-block;
-    width: 190px;
-    height: 200px;
-}
-#g{
-    display: inline-block;
-    width: 190px;
-    height: 200px;
-    
-}
-#h{
-    display: inline-block;
-    width: 190px;
-    height: 200px;
-}
+
 #i{
     float: right;
-    /* width: 760px;
-    height: 150px; */
 
 }
 
