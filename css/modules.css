@@ -1,0 +1,62 @@
+/* Desktop version */
+#a{
+    background-color: red;
+}
+#b{
+    background-color: blue;
+}
+#c{
+    background-color: green;
+}
+#d{
+    background-color: yellow;
+}
+#e{
+    background-color: grey;
+}
+#f{
+    background-color: purple;
+}
+#g{
+    background-color: orange;
+}
+#h{
+    background-color: pink;
+}
+#i{
+    background-color: cyan;
+}
+
+
+
+@media(max-width: 480px){
+
+    #a{
+        background-color: red;
+    }
+    #b{
+        background-color: rgb(100, 22, 52);
+    }
+    #c{
+        background-color: rgb(197, 101, 176);
+    }
+    #d{
+        background-color: rgb(228, 88, 95);
+    }
+    #e{
+        background-color: rgb(211, 195, 195);
+    }
+    #f{
+        background-color: rgb(197, 54, 61);
+    }
+    #g{
+        background-color: orange;
+    }
+    #h{
+        background-color: pink;
+    }
+    #i{
+        background-color: rgb(255, 0, 149);
+    }
+
+}
